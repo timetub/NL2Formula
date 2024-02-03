@@ -1,0 +1,22 @@
+{
+    "model_path": ".train/checkpoint-5600",
+    "source_prefix": "",
+    "schema_serialization_type": "peteshaw",
+    "schema_serialization_randomized": false,
+    "schema_serialization_with_db_id": true,
+    "schema_serialization_with_db_content": true,
+    "normalize_query": true,
+    "target_with_db_id": false,
+    "db_path": "",
+    "cache_dir": "/transformers_cache",
+    "num_beams": 4,
+    "use_picard": false,
+    "launch_picard": false,
+    "picard_mode": "parse_with_guards",
+    "picard_schedule": "incremental",
+    "picard_max_tokens_to_check": 2,
+    "device": 0,
+    "conversational": false,
+    "inputs_path":"./transformers_cache/nl2formula/datasets/test.json",
+    "output_path": "./prediction_output/predicted_nl2formula.txt"
+}
